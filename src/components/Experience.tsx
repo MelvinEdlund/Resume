@@ -22,11 +22,10 @@ const Experience = () => {
     <section id="experience" className="py-14 relative">
       <div className="section-container">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary/85">Experience</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary/85">Work Experience</h2>
         </div>
 
         <div className="relative">
-          {/* Timeline line */}
           <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-1/2" />
 
           {experiences.map((exp, index) => (
@@ -36,10 +35,8 @@ const Experience = () => {
                 index % 2 === 0 ? "md:flex-row-reverse" : ""
               }`}
             >
-              {/* Timeline dot */}
               <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-background -translate-x-1/2 z-10" />
 
-              {/* Content */}
               <div className={`md:w-1/2 pl-8 md:pl-0 ${index % 2 === 0 ? "md:pr-16" : "md:pl-16"}`}>
                 <div className="p-6 rounded-xl border bg-primary/15 border-primary/30 hover:border-primary hover:bg-primary/25 transition-all duration-300 glow-effect group">
                   <div className="flex items-center gap-2 text-primary mb-2">
@@ -62,7 +59,6 @@ const Experience = () => {
                 </div>
               </div>
 
-              {/* Spacer for alternating layout */}
               <div className="hidden md:block md:w-1/2" />
             </div>
           ))}

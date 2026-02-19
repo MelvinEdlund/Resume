@@ -28,7 +28,6 @@ const Skills = () => {
         </div>
 
         <div className="space-y-12">
-          {/* Technical Skills Grid */}
           <div>
             <h3 className="text-lg font-semibold mb-6 text-muted-foreground">
               Core Technologies
@@ -50,9 +49,7 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Soft Skills & Languages Row */}
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Soft Skills */}
             <div>
               <h3 className="text-lg font-semibold mb-6 text-muted-foreground">
                 Additional Knowledge
@@ -70,7 +67,6 @@ const Skills = () => {
               </div>
             </div>
 
-            {/* Languages */}
             <div>
               <h3 className="text-lg font-semibold mb-6 text-muted-foreground">
                 Languages

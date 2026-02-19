@@ -34,7 +34,6 @@ const Contact = () => {
             </a>
           </div>
 
-          {/* Social Links */}
           <div className="flex justify-center gap-4 mt-12">
             <a
               href="https://github.com/MelvinEdlund"
